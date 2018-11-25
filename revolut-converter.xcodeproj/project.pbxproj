@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C741D9B721AAFD7E005DC2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C741D9B621AAFD7E005DC2E8 /* AppDelegate.swift */; };
+		C741D9B921AAFD7E005DC2E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C741D9B821AAFD7E005DC2E8 /* ViewController.swift */; };
+		C741D9BC21AAFD7E005DC2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C741D9BA21AAFD7E005DC2E8 /* Main.storyboard */; };
+		C741D9BE21AAFD80005DC2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C741D9BD21AAFD80005DC2E8 /* Assets.xcassets */; };
+		C741D9C121AAFD80005DC2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C741D9BF21AAFD80005DC2E8 /* LaunchScreen.storyboard */; };
+		C741D9CC21AAFD80005DC2E8 /* revolut_converterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C741D9CB21AAFD80005DC2E8 /* revolut_converterTests.swift */; };
+		F1C9CA3A4FCC4842DC672C62 /* Pods_revolut_converterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688541794416B875DC580B91 /* Pods_revolut_converterTests.framework */; };
+		F885CB22D7DF5A6969DF3729 /* Pods_revolut_converter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1B81C66B70780CF52DB1D3 /* Pods_revolut_converter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C741D9C821AAFD80005DC2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C741D9AB21AAFD7E005DC2E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C741D9B221AAFD7E005DC2E8;
+			remoteInfo = "revolut-converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FCDBDFE5B87181E813ADF5 /* Pods-revolut-converterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut-converterTests.debug.xcconfig"; path = "Target Support Files/Pods-revolut-converterTests/Pods-revolut-converterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26CB52E0CF9CC6991A125716 /* Pods-revolut-converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut-converter.release.xcconfig"; path = "Target Support Files/Pods-revolut-converter/Pods-revolut-converter.release.xcconfig"; sourceTree = "<group>"; };
+		38B3BF152FBD71B2B009388E /* Pods-revolut-converterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut-converterTests.release.xcconfig"; path = "Target Support Files/Pods-revolut-converterTests/Pods-revolut-converterTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D1B81C66B70780CF52DB1D3 /* Pods_revolut_converter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_converter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688541794416B875DC580B91 /* Pods_revolut_converterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_converterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C741D9B321AAFD7E005DC2E8 /* revolut-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "revolut-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C741D9B621AAFD7E005DC2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C741D9B821AAFD7E005DC2E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C741D9BB21AAFD7E005DC2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C741D9BD21AAFD80005DC2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C741D9C021AAFD80005DC2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C741D9C221AAFD80005DC2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C741D9C721AAFD80005DC2E8 /* revolut-converterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "revolut-converterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C741D9CB21AAFD80005DC2E8 /* revolut_converterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revolut_converterTests.swift; sourceTree = "<group>"; };
+		C741D9CD21AAFD80005DC2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58A0FFF9439068E28A39732 /* Pods-revolut-converter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut-converter.debug.xcconfig"; path = "Target Support Files/Pods-revolut-converter/Pods-revolut-converter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C741D9B021AAFD7E005DC2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F885CB22D7DF5A6969DF3729 /* Pods_revolut_converter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C741D9C421AAFD80005DC2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C9CA3A4FCC4842DC672C62 /* Pods_revolut_converterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A83F1955D5552744E2F367F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E58A0FFF9439068E28A39732 /* Pods-revolut-converter.debug.xcconfig */,
+				26CB52E0CF9CC6991A125716 /* Pods-revolut-converter.release.xcconfig */,
+				07FCDBDFE5B87181E813ADF5 /* Pods-revolut-converterTests.debug.xcconfig */,
+				38B3BF152FBD71B2B009388E /* Pods-revolut-converterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1508F859E7D9045CD47C536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B81C66B70780CF52DB1D3 /* Pods_revolut_converter.framework */,
+				688541794416B875DC580B91 /* Pods_revolut_converterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C741D9AA21AAFD7E005DC2E8 = {
+			isa = PBXGroup;
+			children = (
+				C741D9B521AAFD7E005DC2E8 /* revolut-converter */,
+				C741D9CA21AAFD80005DC2E8 /* revolut-converterTests */,
+				C741D9B421AAFD7E005DC2E8 /* Products */,
+				7A83F1955D5552744E2F367F /* Pods */,
+				C1508F859E7D9045CD47C536 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C741D9B421AAFD7E005DC2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C741D9B321AAFD7E005DC2E8 /* revolut-converter.app */,
+				C741D9C721AAFD80005DC2E8 /* revolut-converterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C741D9B521AAFD7E005DC2E8 /* revolut-converter */ = {
+			isa = PBXGroup;
+			children = (
+				C741D9B621AAFD7E005DC2E8 /* AppDelegate.swift */,
+				C741D9B821AAFD7E005DC2E8 /* ViewController.swift */,
+				C741D9BA21AAFD7E005DC2E8 /* Main.storyboard */,
+				C741D9BD21AAFD80005DC2E8 /* Assets.xcassets */,
+				C741D9BF21AAFD80005DC2E8 /* LaunchScreen.storyboard */,
+				C741D9C221AAFD80005DC2E8 /* Info.plist */,
+			);
+			path = "revolut-converter";
+			sourceTree = "<group>";
+		};
+		C741D9CA21AAFD80005DC2E8 /* revolut-converterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C741D9CB21AAFD80005DC2E8 /* revolut_converterTests.swift */,
+				C741D9CD21AAFD80005DC2E8 /* Info.plist */,
+			);
+			path = "revolut-converterTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C741D9B221AAFD7E005DC2E8 /* revolut-converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C741D9D021AAFD80005DC2E8 /* Build configuration list for PBXNativeTarget "revolut-converter" */;
+			buildPhases = (
+				6EF7B0A1D07E175907E322D3 /* [CP] Check Pods Manifest.lock */,
+				C741D9AF21AAFD7E005DC2E8 /* Sources */,
+				C741D9B021AAFD7E005DC2E8 /* Frameworks */,
+				C741D9B121AAFD7E005DC2E8 /* Resources */,
+				8E53F25A338BF0A04B8F2F3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "revolut-converter";
+			productName = "revolut-converter";
+			productReference = C741D9B321AAFD7E005DC2E8 /* revolut-converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C741D9C621AAFD80005DC2E8 /* revolut-converterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C741D9D321AAFD80005DC2E8 /* Build configuration list for PBXNativeTarget "revolut-converterTests" */;
+			buildPhases = (
+				7639A542184263329C139574 /* [CP] Check Pods Manifest.lock */,
+				C741D9C321AAFD80005DC2E8 /* Sources */,
+				C741D9C421AAFD80005DC2E8 /* Frameworks */,
+				C741D9C521AAFD80005DC2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C741D9C921AAFD80005DC2E8 /* PBXTargetDependency */,
+			);
+			name = "revolut-converterTests";
+			productName = "revolut-converterTests";
+			productReference = C741D9C721AAFD80005DC2E8 /* revolut-converterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C741D9AB21AAFD7E005DC2E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andrey Rozhkov";
+				TargetAttributes = {
+					C741D9B221AAFD7E005DC2E8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C741D9C621AAFD80005DC2E8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C741D9B221AAFD7E005DC2E8;
+					};
+				};
+			};
+			buildConfigurationList = C741D9AE21AAFD7E005DC2E8 /* Build configuration list for PBXProject "revolut-converter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C741D9AA21AAFD7E005DC2E8;
+			productRefGroup = C741D9B421AAFD7E005DC2E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C741D9B221AAFD7E005DC2E8 /* revolut-converter */,
+				C741D9C621AAFD80005DC2E8 /* revolut-converterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C741D9B121AAFD7E005DC2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C741D9C121AAFD80005DC2E8 /* LaunchScreen.storyboard in Resources */,
+				C741D9BE21AAFD80005DC2E8 /* Assets.xcassets in Resources */,
+				C741D9BC21AAFD7E005DC2E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C741D9C521AAFD80005DC2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EF7B0A1D07E175907E322D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-revolut-converter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7639A542184263329C139574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-revolut-converterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E53F25A338BF0A04B8F2F3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-revolut-converter/Pods-revolut-converter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-revolut-converter/Pods-revolut-converter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C741D9AF21AAFD7E005DC2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C741D9B921AAFD7E005DC2E8 /* ViewController.swift in Sources */,
+				C741D9B721AAFD7E005DC2E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C741D9C321AAFD80005DC2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C741D9CC21AAFD80005DC2E8 /* revolut_converterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C741D9C921AAFD80005DC2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C741D9B221AAFD7E005DC2E8 /* revolut-converter */;
+			targetProxy = C741D9C821AAFD80005DC2E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C741D9BA21AAFD7E005DC2E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C741D9BB21AAFD7E005DC2E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C741D9BF21AAFD80005DC2E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C741D9C021AAFD80005DC2E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C741D9CE21AAFD80005DC2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C741D9CF21AAFD80005DC2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C741D9D121AAFD80005DC2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58A0FFF9439068E28A39732 /* Pods-revolut-converter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = "revolut-converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andreyrozhkov.revolut-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C741D9D221AAFD80005DC2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CB52E0CF9CC6991A125716 /* Pods-revolut-converter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = "revolut-converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andreyrozhkov.revolut-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C741D9D421AAFD80005DC2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FCDBDFE5B87181E813ADF5 /* Pods-revolut-converterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = "revolut-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andreyrozhkov.revolut-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/revolut-converter.app/revolut-converter";
+			};
+			name = Debug;
+		};
+		C741D9D521AAFD80005DC2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B3BF152FBD71B2B009388E /* Pods-revolut-converterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = "revolut-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andreyrozhkov.revolut-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/revolut-converter.app/revolut-converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C741D9AE21AAFD7E005DC2E8 /* Build configuration list for PBXProject "revolut-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C741D9CE21AAFD80005DC2E8 /* Debug */,
+				C741D9CF21AAFD80005DC2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C741D9D021AAFD80005DC2E8 /* Build configuration list for PBXNativeTarget "revolut-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C741D9D121AAFD80005DC2E8 /* Debug */,
+				C741D9D221AAFD80005DC2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C741D9D321AAFD80005DC2E8 /* Build configuration list for PBXNativeTarget "revolut-converterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C741D9D421AAFD80005DC2E8 /* Debug */,
+				C741D9D521AAFD80005DC2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C741D9AB21AAFD7E005DC2E8 /* Project object */;
+}
