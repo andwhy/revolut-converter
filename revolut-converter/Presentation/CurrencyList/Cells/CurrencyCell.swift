@@ -38,11 +38,13 @@ class CurrencyCell: UITableViewCell, CellRegisterable {
     }
     
     public func setFirstResponder()  {
+        valueTextField.isUserInteractionEnabled = true
         setValueTextFieldDelegateMode(editable: true)
         valueTextField.becomeFirstResponder()
     }
     
     public func endEditing() {
+        valueTextField.isUserInteractionEnabled = false
         setValueTextFieldDelegateMode(editable: false)
         valueTextField.resignFirstResponder()
     }
