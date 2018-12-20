@@ -6,8 +6,7 @@ target 'revolut-converter' do
   use_frameworks!
 
   # Pods for revolut-converter
-  pod 'Alamofire'
-
+  pod 'SwiftyJSON'
 
   target 'revolut-converterTests' do
     inherit! :search_paths

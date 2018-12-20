@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73A7E5221B84DD90001A3B2 /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A7E5121B84DD90001A3B2 /* NetworkLayerTests.swift */; };
+		C73A7E5821B8676B0001A3B2 /* NetworkDispatcherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A7E5721B8676B0001A3B2 /* NetworkDispatcherMock.swift */; };
+		C73A7E5A21B874E30001A3B2 /* CurrencyOperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A7E5921B874E30001A3B2 /* CurrencyOperationTest.swift */; };
+		C73E8F3C21B97F2E00EA015D /* CurrencyModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E8F3B21B97F2E00EA015D /* CurrencyModelTest.swift */; };
+		C73E8F3F21B9811C00EA015D /* CurrencyTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E8F3E21B9811C00EA015D /* CurrencyTestData.swift */; };
+		C73E8F4321B9AA9000EA015D /* CurrencyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E8F4221B9AA9000EA015D /* CurrencyListViewController.swift */; };
+		C73E8F4821B9AD3600EA015D /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E8F4621B9AD3600EA015D /* CurrencyCell.swift */; };
+		C73E8F4C21B9AE2F00EA015D /* Cell + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E8F4B21B9AE2F00EA015D /* Cell + Ext.swift */; };
+		C73E8F5021B9B12C00EA015D /* CurrencyConverterScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73E8F4F21B9B12C00EA015D /* CurrencyConverterScene.storyboard */; };
+		C73E8F5321B9B64400EA015D /* CurrencyListTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E8F5221B9B64400EA015D /* CurrencyListTableDataSource.swift */; };
 		C741D9B721AAFD7E005DC2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C741D9B621AAFD7E005DC2E8 /* AppDelegate.swift */; };
-		C741D9B921AAFD7E005DC2E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C741D9B821AAFD7E005DC2E8 /* ViewController.swift */; };
-		C741D9BC21AAFD7E005DC2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C741D9BA21AAFD7E005DC2E8 /* Main.storyboard */; };
 		C741D9BE21AAFD80005DC2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C741D9BD21AAFD80005DC2E8 /* Assets.xcassets */; };
 		C741D9C121AAFD80005DC2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C741D9BF21AAFD80005DC2E8 /* LaunchScreen.storyboard */; };
-		C741D9CC21AAFD80005DC2E8 /* revolut_converterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C741D9CB21AAFD80005DC2E8 /* revolut_converterTests.swift */; };
+		C75E517621ADC89A008EA68D /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75E517521ADC89A008EA68D /* RequestProtocol.swift */; };
+		C795A28C21CABF3D0027C893 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795A28B21CABF3D0027C893 /* Flags.swift */; };
+		C79933CE21AF2BF300C01CCA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79933CD21AF2BF300C01CCA /* Response.swift */; };
+		C79933D021AF33C000C01CCA /* OperationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79933CF21AF33C000C01CCA /* OperationProtocol.swift */; };
+		C79933D221AF345600C01CCA /* CurrencyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79933D121AF345600C01CCA /* CurrencyOperation.swift */; };
+		C79933D421AF357F00C01CCA /* CurrencyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79933D321AF357F00C01CCA /* CurrencyRequest.swift */; };
+		C79933D721AF3D2000C01CCA /* DefaultEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79933D621AF3D2000C01CCA /* DefaultEnvironment.swift */; };
+		C7BD245A21C66A5E00983224 /* RatesTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD245921C66A5E00983224 /* RatesTextFieldDelegate.swift */; };
+		C7BD245C21C6740E00983224 /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD245B21C6740E00983224 /* String + Ext.swift */; };
+		C7E6BE7E21ADD6880070D75D /* DispatcherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6BE7D21ADD6880070D75D /* DispatcherProtocol.swift */; };
+		C7E6BE8421ADE0C10070D75D /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6BE8321ADE0C10070D75D /* NetworkDispatcher.swift */; };
+		C7EEB65321C583200042E411 /* CurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EEB65221C583200042E411 /* CurrencyCell.xib */; };
+		C7EEB65521C595250042E411 /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EEB65421C595250042E411 /* CurrencyRate.swift */; };
+		C7FB651A21B3E4E80037DD82 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB651921B3E4E80037DD82 /* Currency.swift */; };
+		C7FB651F21B4687E0037DD82 /* JSONOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB651E21B4687E0037DD82 /* JSONOperation.swift */; };
 		F1C9CA3A4FCC4842DC672C62 /* Pods_revolut_converterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688541794416B875DC580B91 /* Pods_revolut_converterTests.framework */; };
 		F885CB22D7DF5A6969DF3729 /* Pods_revolut_converter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1B81C66B70780CF52DB1D3 /* Pods_revolut_converter.framework */; };
 /* End PBXBuildFile section */
@@ -33,16 +55,38 @@
 		38B3BF152FBD71B2B009388E /* Pods-revolut-converterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut-converterTests.release.xcconfig"; path = "Target Support Files/Pods-revolut-converterTests/Pods-revolut-converterTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D1B81C66B70780CF52DB1D3 /* Pods_revolut_converter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_converter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		688541794416B875DC580B91 /* Pods_revolut_converterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_converterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73A7E5121B84DD90001A3B2 /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
+		C73A7E5721B8676B0001A3B2 /* NetworkDispatcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcherMock.swift; sourceTree = "<group>"; };
+		C73A7E5921B874E30001A3B2 /* CurrencyOperationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyOperationTest.swift; sourceTree = "<group>"; };
+		C73E8F3B21B97F2E00EA015D /* CurrencyModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModelTest.swift; sourceTree = "<group>"; };
+		C73E8F3E21B9811C00EA015D /* CurrencyTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTestData.swift; sourceTree = "<group>"; };
+		C73E8F4221B9AA9000EA015D /* CurrencyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewController.swift; sourceTree = "<group>"; };
+		C73E8F4621B9AD3600EA015D /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		C73E8F4B21B9AE2F00EA015D /* Cell + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell + Ext.swift"; sourceTree = "<group>"; };
+		C73E8F4F21B9B12C00EA015D /* CurrencyConverterScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrencyConverterScene.storyboard; sourceTree = "<group>"; };
+		C73E8F5221B9B64400EA015D /* CurrencyListTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListTableDataSource.swift; sourceTree = "<group>"; };
 		C741D9B321AAFD7E005DC2E8 /* revolut-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "revolut-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C741D9B621AAFD7E005DC2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C741D9B821AAFD7E005DC2E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C741D9BB21AAFD7E005DC2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C741D9BD21AAFD80005DC2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C741D9C021AAFD80005DC2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C741D9C221AAFD80005DC2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C741D9C721AAFD80005DC2E8 /* revolut-converterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "revolut-converterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C741D9CB21AAFD80005DC2E8 /* revolut_converterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revolut_converterTests.swift; sourceTree = "<group>"; };
 		C741D9CD21AAFD80005DC2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75E517521ADC89A008EA68D /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		C795A28B21CABF3D0027C893 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		C79933CD21AF2BF300C01CCA /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		C79933CF21AF33C000C01CCA /* OperationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationProtocol.swift; sourceTree = "<group>"; };
+		C79933D121AF345600C01CCA /* CurrencyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyOperation.swift; sourceTree = "<group>"; };
+		C79933D321AF357F00C01CCA /* CurrencyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRequest.swift; sourceTree = "<group>"; };
+		C79933D621AF3D2000C01CCA /* DefaultEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultEnvironment.swift; sourceTree = "<group>"; };
+		C7BD245921C66A5E00983224 /* RatesTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesTextFieldDelegate.swift; sourceTree = "<group>"; };
+		C7BD245B21C6740E00983224 /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
+		C7E6BE7D21ADD6880070D75D /* DispatcherProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherProtocol.swift; sourceTree = "<group>"; };
+		C7E6BE8321ADE0C10070D75D /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		C7EEB65221C583200042E411 /* CurrencyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencyCell.xib; sourceTree = "<group>"; };
+		C7EEB65421C595250042E411 /* CurrencyRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		C7FB651921B3E4E80037DD82 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		C7FB651E21B4687E0037DD82 /* JSONOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONOperation.swift; sourceTree = "<group>"; };
 		E58A0FFF9439068E28A39732 /* Pods-revolut-converter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut-converter.debug.xcconfig"; path = "Target Support Files/Pods-revolut-converter/Pods-revolut-converter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +130,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C73A7E5321B852FE0001A3B2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C73E8F3D21B980FF00EA015D /* ModelMocks */,
+				C73A7E5421B852FE0001A3B2 /* NetworkLayerMocks */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		C73A7E5421B852FE0001A3B2 /* NetworkLayerMocks */ = {
+			isa = PBXGroup;
+			children = (
+				C73A7E5721B8676B0001A3B2 /* NetworkDispatcherMock.swift */,
+			);
+			path = NetworkLayerMocks;
+			sourceTree = "<group>";
+		};
+		C73E8F3D21B980FF00EA015D /* ModelMocks */ = {
+			isa = PBXGroup;
+			children = (
+				C73E8F3E21B9811C00EA015D /* CurrencyTestData.swift */,
+			);
+			path = ModelMocks;
+			sourceTree = "<group>";
+		};
+		C73E8F4021B9A9F900EA015D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C73E8F4121B9AA6D00EA015D /* CurrencyList */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C73E8F4121B9AA6D00EA015D /* CurrencyList */ = {
+			isa = PBXGroup;
+			children = (
+				C73E8F5121B9B1A400EA015D /* Cells */,
+				C73E8F4F21B9B12C00EA015D /* CurrencyConverterScene.storyboard */,
+				C73E8F4221B9AA9000EA015D /* CurrencyListViewController.swift */,
+				C73E8F5221B9B64400EA015D /* CurrencyListTableDataSource.swift */,
+			);
+			path = CurrencyList;
+			sourceTree = "<group>";
+		};
+		C73E8F4A21B9AE0F00EA015D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C73E8F4B21B9AE2F00EA015D /* Cell + Ext.swift */,
+				C7BD245B21C6740E00983224 /* String + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C73E8F5121B9B1A400EA015D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C73E8F4621B9AD3600EA015D /* CurrencyCell.swift */,
+				C7EEB65221C583200042E411 /* CurrencyCell.xib */,
+				C7BD245921C66A5E00983224 /* RatesTextFieldDelegate.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C741D9AA21AAFD7E005DC2E8 = {
 			isa = PBXGroup;
 			children = (
@@ -110,11 +217,13 @@
 			isa = PBXGroup;
 			children = (
 				C741D9B621AAFD7E005DC2E8 /* AppDelegate.swift */,
-				C741D9B821AAFD7E005DC2E8 /* ViewController.swift */,
-				C741D9BA21AAFD7E005DC2E8 /* Main.storyboard */,
 				C741D9BD21AAFD80005DC2E8 /* Assets.xcassets */,
 				C741D9BF21AAFD80005DC2E8 /* LaunchScreen.storyboard */,
 				C741D9C221AAFD80005DC2E8 /* Info.plist */,
+				C73E8F4A21B9AE0F00EA015D /* Extensions */,
+				C7FB651821B3E49B0037DD82 /* Model */,
+				C75E517421ADC88D008EA68D /* NetworkLayer */,
+				C73E8F4021B9A9F900EA015D /* Presentation */,
 			);
 			path = "revolut-converter";
 			sourceTree = "<group>";
@@ -122,10 +231,47 @@
 		C741D9CA21AAFD80005DC2E8 /* revolut-converterTests */ = {
 			isa = PBXGroup;
 			children = (
-				C741D9CB21AAFD80005DC2E8 /* revolut_converterTests.swift */,
+				C73A7E5321B852FE0001A3B2 /* Mocks */,
+				C73E8F3B21B97F2E00EA015D /* CurrencyModelTest.swift */,
+				C73A7E5921B874E30001A3B2 /* CurrencyOperationTest.swift */,
+				C73A7E5121B84DD90001A3B2 /* NetworkLayerTests.swift */,
 				C741D9CD21AAFD80005DC2E8 /* Info.plist */,
 			);
 			path = "revolut-converterTests";
+			sourceTree = "<group>";
+		};
+		C75E517421ADC88D008EA68D /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C79933D621AF3D2000C01CCA /* DefaultEnvironment.swift */,
+				C75E517521ADC89A008EA68D /* RequestProtocol.swift */,
+				C79933CD21AF2BF300C01CCA /* Response.swift */,
+				C7E6BE7D21ADD6880070D75D /* DispatcherProtocol.swift */,
+				C7E6BE8321ADE0C10070D75D /* NetworkDispatcher.swift */,
+				C79933CF21AF33C000C01CCA /* OperationProtocol.swift */,
+				C7FB651E21B4687E0037DD82 /* JSONOperation.swift */,
+				C7FB651B21B3F6D00037DD82 /* CurrencyOperation */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		C7FB651821B3E49B0037DD82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7FB651921B3E4E80037DD82 /* Currency.swift */,
+				C7EEB65421C595250042E411 /* CurrencyRate.swift */,
+				C795A28B21CABF3D0027C893 /* Flags.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7FB651B21B3F6D00037DD82 /* CurrencyOperation */ = {
+			isa = PBXGroup;
+			children = (
+				C79933D321AF357F00C01CCA /* CurrencyRequest.swift */,
+				C79933D121AF345600C01CCA /* CurrencyOperation.swift */,
+			);
+			path = CurrencyOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +358,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7EEB65321C583200042E411 /* CurrencyCell.xib in Resources */,
 				C741D9C121AAFD80005DC2E8 /* LaunchScreen.storyboard in Resources */,
+				C73E8F5021B9B12C00EA015D /* CurrencyConverterScene.storyboard in Resources */,
 				C741D9BE21AAFD80005DC2E8 /* Assets.xcassets in Resources */,
-				C741D9BC21AAFD7E005DC2E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,13 +428,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-revolut-converter/Pods-revolut-converter-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -301,8 +448,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C741D9B921AAFD7E005DC2E8 /* ViewController.swift in Sources */,
+				C7BD245A21C66A5E00983224 /* RatesTextFieldDelegate.swift in Sources */,
+				C75E517621ADC89A008EA68D /* RequestProtocol.swift in Sources */,
+				C73E8F4321B9AA9000EA015D /* CurrencyListViewController.swift in Sources */,
+				C73E8F5321B9B64400EA015D /* CurrencyListTableDataSource.swift in Sources */,
+				C7E6BE7E21ADD6880070D75D /* DispatcherProtocol.swift in Sources */,
+				C73E8F4C21B9AE2F00EA015D /* Cell + Ext.swift in Sources */,
+				C795A28C21CABF3D0027C893 /* Flags.swift in Sources */,
+				C7BD245C21C6740E00983224 /* String + Ext.swift in Sources */,
+				C73E8F4821B9AD3600EA015D /* CurrencyCell.swift in Sources */,
+				C79933D221AF345600C01CCA /* CurrencyOperation.swift in Sources */,
+				C7E6BE8421ADE0C10070D75D /* NetworkDispatcher.swift in Sources */,
+				C79933D421AF357F00C01CCA /* CurrencyRequest.swift in Sources */,
+				C7FB651A21B3E4E80037DD82 /* Currency.swift in Sources */,
 				C741D9B721AAFD7E005DC2E8 /* AppDelegate.swift in Sources */,
+				C79933D021AF33C000C01CCA /* OperationProtocol.swift in Sources */,
+				C79933CE21AF2BF300C01CCA /* Response.swift in Sources */,
+				C7EEB65521C595250042E411 /* CurrencyRate.swift in Sources */,
+				C79933D721AF3D2000C01CCA /* DefaultEnvironment.swift in Sources */,
+				C7FB651F21B4687E0037DD82 /* JSONOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +474,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C741D9CC21AAFD80005DC2E8 /* revolut_converterTests.swift in Sources */,
+				C73A7E5221B84DD90001A3B2 /* NetworkLayerTests.swift in Sources */,
+				C73A7E5821B8676B0001A3B2 /* NetworkDispatcherMock.swift in Sources */,
+				C73A7E5A21B874E30001A3B2 /* CurrencyOperationTest.swift in Sources */,
+				C73E8F3F21B9811C00EA015D /* CurrencyTestData.swift in Sources */,
+				C73E8F3C21B97F2E00EA015D /* CurrencyModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,14 +493,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C741D9BA21AAFD7E005DC2E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C741D9BB21AAFD7E005DC2E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C741D9BF21AAFD80005DC2E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -475,6 +635,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "andreyrozhkov.revolut-converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,6 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "andreyrozhkov.revolut-converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
