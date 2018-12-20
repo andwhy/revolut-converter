@@ -10,14 +10,11 @@ import Foundation
 import SwiftyJSON
 
 public class Currency: Equatable {
-    public static func == (lhs: Currency, rhs: Currency) -> Bool {
-        return lhs.base == rhs.base && lhs.baseValue == rhs.baseValue && lhs.date == rhs.date && lhs.rates == rhs.rates
-    }
-    
     
     var base: String
     var baseValue: Double = 1 {
         didSet {
+            guard updated != nil else { return }
             updated!()
         }
     }
@@ -53,10 +50,12 @@ public class Currency: Equatable {
             let rateValue = json["rates"][r.base].doubleValue
             return CurrencyRate(base: r.base, rate: rateValue)
         })
+        guard updated != nil else { return }
         updated!()
     }
     
     public func moveRateToFirstIndex(from i: Int) {
+        guard i < self.rates.count else { return }
         self.baseValue = calculateRateValue(base: self.rates[i].base)
         self.base = self.rates[i].base
         self.rates.insert(self.rates[i], at: 0)
@@ -74,5 +73,12 @@ public class Currency: Equatable {
 
         let rateValue = baseValue / (baseRate.rate / rate.rate)
         return rateValue
+    }
+    
+    
+    //MARK: Equatable
+    
+    public static func == (lhs: Currency, rhs: Currency) -> Bool {
+        return lhs.base == rhs.base && lhs.baseValue == rhs.baseValue && lhs.date == rhs.date && lhs.rates.sorted(by: { $0.base > $1.base }) == rhs.rates.sorted(by: { $0.base > $1.base })
     }
 }
